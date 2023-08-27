@@ -1,0 +1,59 @@
+*{
+  margin:0px;
+  padding : 0;
+  box-sizing: border-box;
+}
+#app{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  margin-top: 78px;
+  width: 80%;
+}
+#myform{
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+h1{
+  text-align: center;
+}
+#myform input{
+  padding: 20px;
+  outline: none;
+  width: 40%;
+}
+#myform button{
+  background-color: blue;
+  color:white;
+  margin-left: 20px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+/* .todosContainer{
+  margin: 10px 0 0 200px;
+} */
+.todo{  
+display: flex;
+font-size: 20px;
+width: 80%;
+padding: 20px;
+background-color: #ffb6b6;
+margin: 10px auto;
+}
+.todo p{
+width: 100%;
+margin:auto
+}
+p.strike{
+  text-decoration: line-through;
+}
+.todo button{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+}
